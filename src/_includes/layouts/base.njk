@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" class="theme theme-khaki">
+
+  {% include 'components/head.njk'%}
+
+  <body>
+
+    {% include 'components/sidebar.njk'%}
+
+    <div class="main">
+        <div class="container content{{ ' content--text' if text }}{{ ' content--about' if about}}" id="content">
+            {{ content | safe }}
+            {# <p>
+                You can usually find me on <a href="https://twitter.com/philhawksworth">Twitter</a>. And you can
+                sometimes find me at web development <a href="/speaking">conferences</a>, where I might be talking about
+                development techniques. I blog here less frequently than I'd like, but manage it a little more often on
+                the <a href="https://www.netlify.com/blog">Netlify blog</a>.
+            </p>
+            <p>
+                Wherever you find me, online or in the real world, please do come and say a friendly hello.
+            </p>
+
+            <hr />
+
+            <h2><a href="/blog">Recently on the blog</a></h2>
+
+            <div class="blog-list-item">
+                <p class="by-line">January 6th 2020</p>
+
+                <h2><a href="/blog/prerendering/">Prerendering is the key to a tasty&nbsp;Jamstack</a></h2>
+
+                <div class="tags">
+                    <a href="/tags/jamstack" class="tag">#jamstack</a>
+                    ,
+                    <a href="/tags/jamuary" class="tag">#jamuary</a>
+                    ,
+                    <a href="/tags/static" class="tag">#static</a>
+                    ,
+                    <a href="/tags/web" class="tag">#web</a>
+
+                </div>
+                <div class="grab">
+                    <p>2019 seemed to be the year that the term <a
+                            href="https://jamstack.org?utm_source=devto&amp;utm_medium=jamuary-prerendering-pnh&amp;utm_campaign=devex">JAMstack</a>
+                        started to really grow in popularity with more web developers than ever before. It is approach
+                        that I have believed in for many years. <a
+                            href="https://netlify.com/?utm_source=devto&amp;utm_medium=jamuary-prerendering-pnh&amp;utm_campaign=devex">Netlify</a>
+                        (where I work) was created to enable exactly this type of architecture and indeed coined the
+                        very term.</p>
+                    <p>But JAMstack can sound confusing. There are a number of emerging interpretations. In my opinion,
+                        there is one aspect of JAMstack which absolutely key: Pre-rendering.</p>
+                    <p>Here is a short explanation about&nbsp;why.</p>
+
+                </div>
+                <a href="/blog/prerendering/" class="more-link btn">read more</a>
+            </div> #}
+        </div>
+        
+        {% include 'components/footer.njk'%}
+
+    </div>
+  </body>
+</html>

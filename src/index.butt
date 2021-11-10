@@ -1,0 +1,191 @@
+<!doctype html>
+<html >
+
+<body>
+    <div class="sidebar">
+        <header>
+            <div class="sidebar-container">
+                <ul class="nav">
+                    <li><a href="/" class="home">hawksworx</a></li>
+                    <li><a href="/blog" class="blog">blog</a></li>
+                    <li><a href="/contact">contact</a></li>
+                    <li><a href="/about">about</a></li>
+                    <li><a href="/search" class="search" id="search-link">search</a></li>
+                </ul>
+
+                <div class="search-ui invisible">
+                    <input type="text" id="search-str" class="search-str" />
+                    <ol class="search-results">
+                        <ol>
+                </div>
+
+                <div class="page-details">
+
+                    <h1>Hawksworx</h1>
+                    <p class="phonetic">
+                        /hɔːkswəːks/
+                    </p>
+                    <p>
+                        The blog, playground, and generally a home on the web for <a href="/about" class="no-wrap">Phil
+                            Hawksworth</a>, a web nerd, amateur comedian, and cat&nbsp;botherer.
+                    </p>
+
+                </div>
+            </div>
+        </header>
+    </div>
+    <div class="main">
+        <div class="container">
+
+            <p>
+                You can usually find me on <a href="https://twitter.com/philhawksworth">Twitter</a>. And you can
+                sometimes find me at web development <a href="/speaking">conferences</a>, where I might be talking about
+                development techniques. I blog here less frequently than I'd like, but manage it a little more often on
+                the <a href="https://www.netlify.com/blog">Netlify blog</a>.
+            </p>
+            <p>
+                Wherever you find me, online or in the real world, please do come and say a friendly hello.
+            </p>
+
+            <hr />
+
+            <h2><a href="/blog">Recently on the blog</a></h2>
+
+
+            <div class="blog-list-item">
+                <p class="by-line">January 6th 2020</p>
+
+                <h2><a href="/blog/prerendering/">Prerendering is the key to a tasty&nbsp;Jamstack</a></h2>
+
+                <div class="tags">
+                    <a href="/tags/jamstack" class="tag">#jamstack</a>
+                    ,
+                    <a href="/tags/jamuary" class="tag">#jamuary</a>
+                    ,
+                    <a href="/tags/static" class="tag">#static</a>
+                    ,
+                    <a href="/tags/web" class="tag">#web</a>
+
+                </div>
+                <div class="grab">
+                    <p>2019 seemed to be the year that the term <a
+                            href="https://jamstack.org?utm_source=devto&amp;utm_medium=jamuary-prerendering-pnh&amp;utm_campaign=devex">JAMstack</a>
+                        started to really grow in popularity with more web developers than ever before. It is approach
+                        that I have believed in for many years. <a
+                            href="https://netlify.com/?utm_source=devto&amp;utm_medium=jamuary-prerendering-pnh&amp;utm_campaign=devex">Netlify</a>
+                        (where I work) was created to enable exactly this type of architecture and indeed coined the
+                        very term.</p>
+                    <p>But JAMstack can sound confusing. There are a number of emerging interpretations. In my opinion,
+                        there is one aspect of JAMstack which absolutely key: Pre-rendering.</p>
+                    <p>Here is a short explanation about&nbsp;why.</p>
+
+                </div>
+
+                <a href="/blog/prerendering/" class="more-link btn">read more</a>
+
+
+            </div>
+
+
+
+            <hr />
+
+
+
+            <h2><a href="/speaking#upcoming">Next conference appearance</a></h2>
+            <div class="blog-list-item">
+                <p class="by-line">
+                    April 2nd 2020,
+                    in London, UK
+                </p>
+                <h3>
+                    <img src="https://d33wubrfki0l68.cloudfront.net/9ee449119e283a43ea11c3189070084802653fbe/089e4/images/flags/gb.svg"
+                        class="flag" alt="The flag for London, UK" />
+
+                    <a href="https://www.generateconf.com/" target="NEW" rel="noopener">Generate</a>
+
+                </h3>
+            </div>
+
+
+
+            <hr />
+
+            <h2 id="tweets"><a href="https://twitter.com/philhawksworth">Recently on Twitter</a></h2>
+            <p>
+                Recently posted on <a href="https://twitter.com/philhawksworth">@philhawksworth</a> (excluding
+                @replies).
+            </p>
+            <div class="blog-list-item tweet">
+                <h3>
+                    <a href="https://twitter.com/philhawksworth/status/1438851068956401667">September 17th 2021</a>
+                </h3>
+                <p>
+                    There are seriously fun times ahead for @nuxt_js! <a
+                        href="https://t.co/WR5IioGZig">https://t.co/WR5IioGZig</a>
+                </p>
+            </div>
+
+            <div class="blog-list-item tweet">
+                <h3>
+                    <a href="https://twitter.com/philhawksworth/status/1438155472868192259">September 15th 2021</a>
+                </h3>
+                <p>
+                    Seeing the excitement mount as #NuxtNation is about to get underway! 🍿
+                    <p />
+                <p>https://t.co/t6iOcJt6dF
+                </p>
+            </div>
+
+            <div class="blog-list-item tweet">
+                <h3>
+                    <a href="https://twitter.com/philhawksworth/status/1437777973315256329">September 14th 2021</a>
+                </h3>
+                <p>
+                    Hello again old friend <a href="https://t.co/S5zfDMFjB8">https://t.co/S5zfDMFjB8</a>
+                </p>
+            </div>
+            <p>
+                <em>
+                    These tweets are pulled from Twitter and baked into this page automatically whenever I tweet. You
+                    can <a href="/blog/keeping-a-jamstack-site-feeling-fresh-with-recent-tweets/">read about how</a> in
+                    a blog post.
+                </em>
+            </p>
+
+
+
+
+
+
+        </div>
+        <footer>
+            <div class="solid-footer">
+                <div class="container">
+
+                    <p>
+                        The source code of this site is available on <a
+                            href="https://www.github.com/philhawksworth/hawksworx.com" target="new"
+                            rel="noopener">GitHub</a> and is hosted and updated by <a href="https://www.netlify.com"
+                            target="new" rel="noopener">Netlify</a> automatically after each <a
+                            href='https://www.github.com/philhawksworth/hawksworx.com/commit/master' target="new"
+                            rel="noopener">code commit</a>
+                    </p>
+                    <p>
+                        Other than where specified, the content on this site is published under a <a
+                            href="http://creativecommons.org/licenses/by/3.0/" target="new" rel="noopener">Creative
+                            Commons Attribution 3.0 licence</a>.
+                    </p>
+                    <p>
+                        <a href="/feed.xml">Subscribe to a feed</a> of blog posts on this site.
+                    </p>
+
+
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script>function btnHandler(e, t) { var n = document.querySelector(e); n && n.addEventListener("click", function (e) { e.preventDefault(), t() }, !1) } function flagIfEmpty(e) { e.value.length < 1 && e.classList.add("needs-content") } btnHandler("#btn-opt-in", function () { var e = new Date, t = e.getTime() + 31536e6; e.setTime(t), document.cookie = "nf_ab=oh-so-orange; expires=" + e.toUTCString(), window.location.reload(!0) }), btnHandler("#btn-opt-out", function () { document.cookie = "nf_ab=;expires=Thu, 01 Jan 1970 00:00:01 GMT;", window.location.reload(!0) }), function () { var e = document.querySelectorAll("form"); if (0 != e.length) for (var t = 0; t < e.length; t++)e[t].addEventListener("submit", function (e) { e.preventDefault(); for (var t = e.target, n = t.querySelectorAll(".needs-content"), r = 0; r < n.length; r++)n[r].classList.remove("needs-content"); for (var o = t.querySelectorAll("input"), l = 0; l < o.length; l++)flagIfEmpty(o[l]); for (var i = t.querySelectorAll("textarea"), c = 0; c < i.length; c++)flagIfEmpty(i[c]); if (1 < (n = t.querySelectorAll(".needs-content")).length) return !1; t.submit() }, !1) }(), function () { var l = null, e = document.querySelector(".search-ui"), i = document.querySelector(".search-results"), n = document.querySelector("#search-str"), c = document.querySelector("footer"), a = function () { for (; i.firstChild;)i.removeChild(i.firstChild); c.classList.remove("invisible") }; btnHandler("#search-link", function () { fetch("/search.json").then(function (e) { return e.json() }).then(function (e) { l = e.search }), e.classList.toggle("invisible"), n.focus(), n.addEventListener("keyup", function (e) { var t = n.value; 2 < t.length ? function (e) { e = e.toLowerCase(); var t = []; for (var n in l) -1 != l[n].text.indexOf(e) && t.push(l[n]); for (var n in a(), c.classList.add("invisible"), t) { var r = document.createElement("li"), o = document.createElement("a"); o.textContent = t[n].title, o.setAttribute("href", t[n].url), r.appendChild(o), i.appendChild(r) } }(t) : a() }) }) }();</script>
+</body>
+
+</html>

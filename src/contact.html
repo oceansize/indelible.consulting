@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en" class="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" href="/fonts/placardmtstd-cond-webfont.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="/index.css">
+    <title>Ask Phil Hawksworth questions</title>
+    <meta name="description" content="Ask Phil Hawksworth to speak at your event. Or ask pretty much anything else." />
+    <link rel="alternate" href="/feed.xml" title="Hawksworx blog feed, by Phil Hawksworth" type="application/atom+xml">
+    <link rel="apple-touch-icon" sizes="57x57" href="/images/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/images/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/images/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/images/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/images/favicons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@philhawksworth" />
+    <meta name="twitter:creator" content="@philhawksworth" />
+    <meta property="og:url" content="https://www.hawksworx.com/" />
+    <meta property="og:title" content="Phil Hawksworth" />
+    <meta property="og:description"
+        content="Ask Phil Hawksworth to speak at your event. Or ask pretty much anything else." />
+    <meta property="og:image" content='https://www.hawksworx.com/card-image/-ask-me-card.png' />
+
+</head>
+
+<body>
+    <div class="sidebar">
+        <header>
+            <div class="sidebar-container">
+                <ul class="nav">
+                    <li><a href="/" class="home">hawksworx</a></li>
+                    <li><a href="/blog" class="blog">blog</a></li>
+                    <li><a href="/speaking">speaking</a></li>
+                    <li><a href="/about">about</a></li>
+                    <li><a href="/search" class="search" id="search-link">search</a></li>
+                </ul>
+
+                <div class="search-ui invisible">
+                    <input type="text" id="search-str" class="search-str" />
+                    <ol class="search-results">
+                        <ol>
+                </div>
+
+                <div class="page-details">
+
+                    <h1>Ask me anything</h1>
+                    <p>
+                        You've got questions?<br />
+                        I might have answers.<br />
+                        You can but ask!
+                    </p>
+
+                </div>
+            </div>
+        </header>
+    </div>
+    <div class="main">
+        <div class="container">
+
+            <p>
+                You can always <a href="https://www.twitter.com/philhawksworth">ask me things on Twitter</a> but if
+                that's not your thing don't worry, you can ask me questions directly through this site.
+            </p>
+            <p>
+                I'll do my best to respond, just as long as you ask nicely ;)
+            </p>
+
+            <h2 id="anything">Ask me anything</h2>
+            <p>
+                How was this site made? What do you do for a living? How did you get started? Who is your favorite
+                Beatle? Do you only like cats or are dogs ok too?
+            </p>
+            <p>
+                These are all perfectly reasonable questions. I'm probably not going to give you my PIN number though.
+            </p>
+
+
+            <form name='ask-me-anything' action='/ask-me/thanks' method='post'><input type='hidden' name='form-name'
+                    value='ask-me-anything' />
+                <p class="honey">
+                    <label>Your full name: <input name="full-name"></label>
+                </p>
+                <p>
+                    <label for="email">Your contact details <small>(usually email or twitter works best)</small></label>
+                    <input type="text" name="name" id="email">
+                </p>
+                <p>
+                    <label for="message">Your question <small>(I'll do my best to answer if I can)</small></label>
+                    <textarea name="message" id="message"></textarea>
+                </p>
+                <p>
+                    <button type="submit" class="btn">Ask Phil that burning question</button>
+                </p>
+            </form>
+
+
+            <h2 id="to-speak">Ask me to speak at your event</h2>
+            <p>
+                If you'd like me to speak at your conference, meetup, company, university, or school, then please get in
+                touch.
+            </p>
+            <form name='speaking-enquiries' action='/ask-me/thanks' method='post'><input type='hidden' name='form-name'
+                    value='speaking-enquiries' />
+                <p class="honey">
+                    <label>Your full name: <input name="full-name"></label>
+                </p>
+                <p>
+                    <label for="email">Your email <small>(so that I can get back to you)</small></label>
+                    <input type="email" name="name" id="email">
+                </p>
+                <p>
+                    <label for="message">Your message <small>(and a little about your event)</small></label>
+                    <textarea name="message" id="message"></textarea>
+                </p>
+                <p>
+                    <button type="submit" class="btn">Ask Phil about speaking</button>
+                </p>
+            </form>
+
+
+
+
+
+        </div>
+        <footer>
+            <div class="solid-footer">
+                <div class="container">
+
+                    <p>
+                        The source code of this site is available on <a
+                            href="https://www.github.com/philhawksworth/hawksworx.com" target="new"
+                            rel="noopener">GitHub</a> and is hosted and updated by <a href="https://www.netlify.com"
+                            target="new" rel="noopener">Netlify</a> automatically after each <a
+                            href='https://www.github.com/philhawksworth/hawksworx.com/commit/master' target="new"
+                            rel="noopener">code commit</a>
+                    </p>
+                    <p>
+                        Other than where specified, the content on this site is published under a <a
+                            href="http://creativecommons.org/licenses/by/3.0/" target="new" rel="noopener">Creative
+                            Commons Attribution 3.0 licence</a>.
+                    </p>
+                    <p>
+                        <a href="/feed.xml">Subscribe to a feed</a> of blog posts on this site.
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script>function btnHandler(e, t) { var n = document.querySelector(e); n && n.addEventListener("click", function (e) { e.preventDefault(), t() }, !1) } function flagIfEmpty(e) { e.value.length < 1 && e.classList.add("needs-content") } btnHandler("#btn-opt-in", function () { var e = new Date, t = e.getTime() + 31536e6; e.setTime(t), document.cookie = "nf_ab=oh-so-orange; expires=" + e.toUTCString(), window.location.reload(!0) }), btnHandler("#btn-opt-out", function () { document.cookie = "nf_ab=;expires=Thu, 01 Jan 1970 00:00:01 GMT;", window.location.reload(!0) }), function () { var e = document.querySelectorAll("form"); if (0 != e.length) for (var t = 0; t < e.length; t++)e[t].addEventListener("submit", function (e) { e.preventDefault(); for (var t = e.target, n = t.querySelectorAll(".needs-content"), r = 0; r < n.length; r++)n[r].classList.remove("needs-content"); for (var o = t.querySelectorAll("input"), l = 0; l < o.length; l++)flagIfEmpty(o[l]); for (var i = t.querySelectorAll("textarea"), c = 0; c < i.length; c++)flagIfEmpty(i[c]); if (1 < (n = t.querySelectorAll(".needs-content")).length) return !1; t.submit() }, !1) }(), function () { var l = null, e = document.querySelector(".search-ui"), i = document.querySelector(".search-results"), n = document.querySelector("#search-str"), c = document.querySelector("footer"), a = function () { for (; i.firstChild;)i.removeChild(i.firstChild); c.classList.remove("invisible") }; btnHandler("#search-link", function () { fetch("/search.json").then(function (e) { return e.json() }).then(function (e) { l = e.search }), e.classList.toggle("invisible"), n.focus(), n.addEventListener("keyup", function (e) { var t = n.value; 2 < t.length ? function (e) { e = e.toLowerCase(); var t = []; for (var n in l) -1 != l[n].text.indexOf(e) && t.push(l[n]); for (var n in a(), c.classList.add("invisible"), t) { var r = document.createElement("li"), o = document.createElement("a"); o.textContent = t[n].title, o.setAttribute("href", t[n].url), r.appendChild(o), i.appendChild(r) } }(t) : a() }) }) }();</script>
+</body>
+
+</html>
